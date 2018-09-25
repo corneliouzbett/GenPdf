@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="GenPurchaseOrder:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GenPurchaseOrder_jar</output-path>
+    <properties id="ant-preprocessing">
+      <options enabled="true" />
+    </properties>
+    <root id="archive" name="GenPurchaseOrder.jar">
+      <element id="module-output" name="GenPurchaseOrder" />
+      <element id="extracted-dir" path="G:/JAVA Libraries/jcalendar-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/JAVA Libraries/rs2xml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/JAVA Libraries/mysql-connector-java-5.1.23-bin.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/JAVA Libraries/lib/itextpdf-5.5.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
